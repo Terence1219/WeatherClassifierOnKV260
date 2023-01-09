@@ -1,7 +1,7 @@
 # Weather Classifier on KV260
 
 ## 使用方式
-將kv260_part資料夾放入KV260的Jupyter Notebook中，並直接執行notebook即可進行即時天氣分類。
+按以下方式與KV260連線。將kv260_part資料夾放入KV260的Jupyter Notebook中，並直接執行notebook即可進行即時天氣分類。
 
 ### 如何與KV260連線
 將KV260透過乙太網路線與電腦連線，將DHCP設定手動(詳如下)並儲存。
@@ -14,7 +14,7 @@
 ```
 10.42.0.3:9090
 ```
-即可連線。
+即可連線至Jupyter Notebook，各設備之密碼請洽助教。
 下為常見作業系統更改網路設定的位置:
 * Windows
 開啟設定>網路和網際網路(可能在左邊選單中)>有線網路>將DHCP改為手動
