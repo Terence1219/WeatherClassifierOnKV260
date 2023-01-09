@@ -1,0 +1,2 @@
+# WeatherClassifierOnKV260
+將kv260_part資料夾放入KV260中，並直接執行notebook即可進行天氣分類。
