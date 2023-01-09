@@ -1,4 +1,6 @@
 # Weather Classifier on KV260
+有鑑於搞這個專題實在是有太多名詞使人霧煞煞，本文最後有稍作整理供參
+
 
 ## 使用方式
 按以下方式與KV260連線。將kv260_part資料夾放入KV260的Jupyter Notebook中，並直接執行notebook即可進行即時天氣分類。
@@ -35,8 +37,20 @@
   * Quantize
   * Compile
 3. 導入KV260
+  * DPU Overlay
   
-  #### FPGA
-  #### PS
-  #### PL
-  #### DPU
+  
+  #### Field Programmable Gate Array (FPGA)
+  
+  #### KV260
+  基本上就是一台內建FPGA的小電腦，但是若要使用FPGA的部分，我們需要一些東西的輔助溝通(例如等等會提到的Overlay)。
+  #### PYNQ
+  
+  #### Processing System (PS)
+  相當於電腦CPU的部分
+  #### Progarmmable Logic (PL)
+  相當於FPGA的部分
+  #### Overlay
+  簡單講就是連接PS跟PL的橋樑，讓兩者可以互相溝通。
+  #### Deep Learning Processor Unit (DPU)
+  
