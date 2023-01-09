@@ -43,7 +43,7 @@
   #### Field Programmable Gate Array (FPGA)
   
   #### KV260
-  基本上就是一台內建FPGA的小電腦，但是若要使用FPGA的部分，我們需要一些東西的輔助溝通(例如等等會提到的Overlay)。
+  基本上就是一台內建FPGA的小電腦，但是若要使用FPGA的部分，我們需要一些東西來輔助兩者溝通(例如等等會提到的Overlay)。
   #### PYNQ
   
   #### Processing System (PS)
