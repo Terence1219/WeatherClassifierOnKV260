@@ -40,6 +40,7 @@
   * DPU Overlay
   
 ## 名詞大補帖
+### 架構相關(軟硬體)
   #### Field Programmable Gate Array (FPGA)
   
   #### KV260
@@ -53,4 +54,7 @@
   #### Overlay
   簡單講就是連接PS跟PL的橋樑，讓兩者可以互相溝通。
   #### Deep Learning Processor Unit (DPU)
-  
+### 模型優化相關
+  #### Inspector
+  #### Quantize
+  #### Compile
