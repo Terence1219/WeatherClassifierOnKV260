@@ -39,7 +39,7 @@
 3. 導入KV260
   * DPU Overlay
   
-  
+## 名詞大補帖
   #### Field Programmable Gate Array (FPGA)
   
   #### KV260
