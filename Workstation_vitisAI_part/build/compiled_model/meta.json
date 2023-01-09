@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "group13_kv260.xmodel",
+    "kernel": [
+        "subgraph_Net__Net_ResNet_resnet18__AdaptiveAvgPool2d_avgpool__483_i0"
+    ],
+    "target": "DPUCZDX8G_ISA0_B4096_MAX_BG2"
+}
