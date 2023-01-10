@@ -30,16 +30,13 @@ def quantize(build_dir, quant_mode, batchsize):
     print("Running on device: {}".format(device))
 
     # load trained model
-    #model = CNN_Model().to(device)
-    #model.load_state_dict(torch.load(os.path.join(float_model, 'lane_following.pth'), map_location=device))
     model = Net().to(device)
-    model.load_state_dict(torch.load(os.path.join(float_model, 'weather_resnet18_1.pth'), map_location=device))
+    model.load_state_dict(torch.load(os.path.join(float_model, 'weather_resnet18.pth'), map_location=device))
 
     # override batchsize if in test mode
     if (quant_mode=='test'):
         batchsize = 1
 
-    #rand_in = torch.randn([batchsize, 3, 480, 640]) # inout size (batchsize, C, H, W)
     rand_in = torch.randn([batchsize, 3, 224, 224])
     quantizer = torch_quantizer(quant_mode, model, (rand_in), output_dir=quant_model) 
     quantized_model = quantizer.quant_model
@@ -49,7 +46,7 @@ def quantize(build_dir, quant_mode, batchsize):
     '''
     # dataset
     test_data = datasets.ImageFolder(
-        'dataset/Trail_dataset/test_data_weather',
+        'dataset/test_data_weather',
         transform = transforms.Compose([
             transforms.Resize([224, 224]),
             transforms.ToTensor()
