@@ -55,4 +55,4 @@
 ### 模型優化相關
   #### Inspector
   #### Quantize
-  #### Compil
+  #### Compile
