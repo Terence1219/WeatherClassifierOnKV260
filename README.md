@@ -51,7 +51,7 @@
   #### Overlay
   簡單講就是連接PS跟PL的橋樑，讓兩者可以互相溝通。
   #### Deep Learning Processor Unit (DPU)
-  把FPGA搞出一個可以專們拿來跑深度學習相關的Block出來，這個Block就叫做DPU。(幫深度學習量身訂做硬體的部分)  
+  用FPGA做出一個可以專們拿來跑深度學習相關的Block出來，這個Block就叫做DPU。(幫深度學習量身訂做硬體的部分)  
 ### 模型優化相關
   #### Inspector
   #### Quantize
