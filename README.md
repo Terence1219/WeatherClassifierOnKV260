@@ -1,5 +1,5 @@
 # Weather Classifier on KV260
-[`Slides`]([https://github.com/Terence1219/WeatherClassifierOnKV260/blob/main/Group13_Final_Report_final_ver.pdf](https://github.com/Terence1219/WeatherClassifierOnKV260/blob/main/Slide_group13_real_time_weather_classifier_on_edge_devices(KV260).pdf)) [`Report`](https://github.com/Terence1219/WeatherClassifierOnKV260/blob/main/Group13_Final_Report_final_ver.pdf)
+[`Slides`]([https://github.com/Terence1219/WeatherClassifierOnKV260/blob/main/Group13_Final_Report_final_ver.pdf](https://github.com/Terence1219/WeatherClassifierOnKV260/blob/main/Slide_group13_real_time_weather_classifier_on_edge_devices(KV260).pdf) [`Report`](https://github.com/Terence1219/WeatherClassifierOnKV260/blob/main/Group13_Final_Report_final_ver.pdf)
 <br/>
 Since this project involves many technical terms, a glossary is provided at the end for reference.
 
