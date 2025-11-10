@@ -1,4 +1,73 @@
 # Weather Classifier on KV260
+
+Since this project involves many technical terms, a glossary is provided at the end for reference.
+
+## Usage
+
+Connect to the KV260 as follows. Place the `kv260_part` folder into the KV260’s Jupyter Notebook environment, and directly run the notebook to perform real-time weather classification.
+
+### How to Connect to KV260
+
+Connect the KV260 to your computer via Ethernet, set the DHCP configuration manually (details below), and save the settings:
+
+```
+IP Address (IPv4) 10.42.0.2 
+Mask 255.255.255.0 
+Gateway 10.42.0.1
+```
+
+Open a browser on your computer and enter:
+
+```
+10.42.0.3:9090
+```
+
+This will connect you to Jupyter Notebook. For device passwords, please contact the teaching assistant.
+
+Common locations for changing network settings:
+
+- **Windows**  
+  Settings > Network & Internet (may be in the left menu) > Wired Network > Set DHCP to Manual  
+- **Ubuntu**  
+  Top-right corner Settings > Network  
+
+## Project Structure
+
+1. **Train the model (on PC)**  
+2. **Model optimization (on Ubuntu workstation)**  
+   Steps required for optimization:  
+   - **Inspect (optional but recommended)**  
+     Vitis-AI official documentation suggests inspecting the model before optimization (a sample notebook is provided).  
+     After inspection, several files are generated, mainly a new `.py` file and a `.txt` file containing model adjustment suggestions.  
+   - **Quantize**  
+   - **Compile**  
+3. **Deploy to KV260**  
+   - **DPU Overlay**  
+
+## Glossary of Terms
+
+### Architecture (Hardware/Software)
+
+- **Field Programmable Gate Array (FPGA)**  
+- **KV260**  
+  Essentially a small computer with a built-in FPGA. To use the FPGA portion, additional tools are needed to enable communication (such as the Overlay mentioned below).  
+- **PYNQ**  
+- **Processing System (PS)**  
+  Equivalent to the CPU portion of a computer.  
+- **Programmable Logic (PL)**  
+  Equivalent to the FPGA portion.  
+- **Overlay**  
+  A bridge connecting PS and PL, allowing them to communicate.  
+- **Deep Learning Processor Unit (DPU)**  
+  A block implemented on FPGA specifically designed to run deep learning tasks — essentially hardware tailored for deep learning.  
+
+### Model Optimization
+
+- **Inspector**  
+- **Quantize**  
+- **Compile**
+
+# Weather Classifier on KV260
 有鑑於搞這個專題實在是有太多名詞，本文最後有稍作整理供參
 
 
