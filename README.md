@@ -1,5 +1,5 @@
 # Weather Classifier on KV260
-
+[`Slides`](https://github.com/Terence1219/WeatherClassifierOnKV260/blob/main/Group13_Final_Report_final_ver.pdf) [`Report`](https://github.com/Terence1219/WeatherClassifierOnKV260/blob/main/Group13_Final_Report_final_ver.pdf)
 Since this project involves many technical terms, a glossary is provided at the end for reference.
 
 ## Usage
